@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <title> Die Barmenia </title>
+    <link rel="stylesheet" type="text/css" href="MakeItPretty.css">
+</head>
+
+<body>
+
+<form>
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/7/7a/Barmenia_logo.svg" align="right" height="100" width="200">
+<h1>Registrierungsformular</h1>
+
+<div>
+<h3>Anrede:</h3>
+<input type="radio" id="female" name="fav_language" value="Frau">
+<label for="female">Frau</label>
+<input type="radio" id="male" name="fav_language" value="Herr">
+<label for="male">Herr</label><br><br>
+
+</div>
+
+
+    <div class="paragraph" id="name">
+
+<label> Name: <input type="text" name="Nachname" value=""><br> </label>
+<label> Vorname: <input type="text" name="Nachname" value=""><br> </label>
+    </div>
+
+
+    <div class="paragraph" id="insurances">
+
+<h3> <b>Welche Versicherungen haben Sie bereits bei der Barmenia?</b> </h3>
+
+<input type="checkbox" id="sick" name="insurance" value="Krankenversicherung">
+    <label for="sick">Krankenversicherung</label> <br>
+<input type="checkbox" id="life" name="insurance" value="Lebensversicherung">
+<label for="life">Lebensversicherung<br>
+    <input type="checkbox" id="crash" name="insurance" value="Unfall- und Kraftfahrzeugversicherungen">
+    <label for="crash">Unfall- und Kraftfahrzeugversicherungen<br>
+    <input type="checkbox" id="smash" name="insurance" value="Haftpflicht- und Sachversicherungen">
+    <label for="smash">Haftpflicht- und Sachversicherungen</label> <br> <br>
+
+
+    </div> <br>
+
+
+<div class="list" id="offer">
+
+
+
+    <caption><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Angebote</a></caption>
+
+
+    <ul>
+        <li>Gesundheit</li>
+        <li>Haus und Haftpflicht</li>
+        <li>Kfz und Reisen</li>
+        <li>Rund ums Tier</li>
+        <li>Vorsorge und Finanzen</li>
+
+    </ul>
+
+</div>
+
+
+    <div class="list" id="where">
+
+            <caption>Standorte</caption>
+        <ol>
+        <li>Hauptverwaltung</li>
+            <li>Wuppertal</li>
+            <li>Berlin</li>
+            <li>München</li>
+
+        </ol>
+
+    </div> <br>
+
+
+   <div class="button">
+
+       <form>
+           <button type="submit" formaction="https://de.wikipedia.org/wiki/Wikipedia:Hauptseite" formtarget="_blank">Daten und Fakten</button>
+       </form>
+
+       <form>
+           <button type="submit" formaction="https://www.barmenia.de/" formtarget="_blank">Beitrag berechnen</button>
+       </form>
+
+
+   </div>
+
+    <div class="paragraph" id="age">
+
+       <h3> <b>Zu welcher Altersgruppe gehören Sie?</b> </h3>
+
+        <select name="age group">
+            <option>unter 18</option>
+            <option>18 bis 25</option>
+            <option>25 bis 45</option>
+            <option>45 bis 65</option>
+            <option>über 65</option>
+        </select> <br> <br>
+    </div>
+
+
+    <div class="paragraph" id="opinion">
+        <h3><b>Sagen Sie uns Ihre Meinung:</b> </h3>
+        <textarea name="opinion" rows="6" cols="230"></textarea> <br>
+    </div>
+
+    <div class="submit">
+        <input type="submit" value="Abschicken">
+        <input type="reset" value="Löschen">
+    </div>
+
+
+</form>
+
+
+</body>
