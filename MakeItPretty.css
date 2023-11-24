@@ -1,0 +1,40 @@
+body {background-color: teal;}
+
+.paragraph {background-color: #696969;
+            border-bottom-style: dotted;}
+
+.list { background-color: #696969;
+        border-bottom-style: dotted;
+        display : inline-flex;}
+
+.button {  display : inline-flex;
+           gap :130px ;
+           width: 100%;
+           height: 50%;
+           border: dotted;
+           background-color: #505050;
+           padding: 14px 28px;
+           font-size: 16px;
+           cursor: pointer;
+           text-align: center;
+           margin-top: 10px }
+
+
+button:hover {background-color: MediumAquamarine;}
+
+a { text-decoration: none;
+    color: black; }
+
+.submit {
+
+          width: 100%;
+          height: 50%;
+          border: dotted;
+          background-color: #505050;
+          padding: 14px 28px;
+          font-size: 16px;
+          cursor: pointer;
+          text-align: center;
+          margin-top: 10px }
+
+#insurance {margin-top:10px;}
